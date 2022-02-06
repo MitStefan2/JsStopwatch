@@ -1,0 +1,45 @@
+body {
+  color: #fff;
+  background: linear-gradient(
+    -70deg,
+    #b5e48c,
+    #99d98c,
+    #76c893,
+    #52b69a,
+    #34a0a4,
+    #168aad,
+    #1a759f,
+    #1e6091,
+    #184e77
+  );
+  background-size: 200%;
+  animation: Gradient 25s ease infinite;
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.wraper {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.7em;
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+#mins,
+#seconds,
+#tens {
+  font-size: 1.5em;
+}
