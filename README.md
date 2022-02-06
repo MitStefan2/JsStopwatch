@@ -1,2 +1,3 @@
 # JsStopwatch
-Created with CodeSandbox
+
+Stopwatch built using HTML, CSS and JS.
